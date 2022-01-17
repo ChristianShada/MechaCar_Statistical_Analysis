@@ -18,6 +18,15 @@
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This linear model **does** predict the MPG of MechaCar prototpys effectly. As a result of the r=squared value of .7149 (about 71%), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of all predictions can be determined by this model.<br><br>
 
+## Summary Statistics on Suspension Coils<br><br>
 ### Deliverable 2
-* The suspension coil’s PSI continuous variable across all manufacturing lots.
+* The suspension coil’s PSI continuous variable across all manufacturing lots.<br><br>
+<img align="left" width="500" height="150" src=https://github.com/ChristianShada/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Sumary.PNG><br><br><br><br><br><br><br><br>
 * The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+<img align="left" width="700" height="150" src=https://github.com/ChristianShada/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.PNG><br><br><br><br><br><br><br><br>
+* Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Given that the suspension coils must not exceed 100 pounds PSI, as disctated by the designs for the MechaCars, the data shows 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that the coils are well within the  the varience of the coils at 62.29. However when one looks at the lots individually, you will notice 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that Lot3's varience is above the required PSI at 170.29 which causes the average of the lot Varience to be at 62.29. See the box 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plot below as additional info.<br>
+<img align="right" width="600" height="600" src=https://github.com/ChristianShada/MechaCar_Statistical_Analysis/blob/main/Resources/Box_Plot_IndividualLot.PNG>
