@@ -43,7 +43,17 @@ _Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value
 <img align="left" width="500" height="200" src=https://user-images.githubusercontent.com/89173945/149691486-db9bb4c0-d7db-4e39-aebd-8b58953de1e6.png><br><br><br><br><br><br><br><br><br>
 _However, Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.<br><br>_
 There has been some malfuction in Lot 3 prodution. There needs to be a check  in the processes, status system fails, and the suspension coils from this lot need to be inspected to remove those or repair those that are out of the requirements.
+<br><br>
+## Study Design: MechaCar vs Competition
+### Deliverable 4
+_Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.<br><br>_
 
-
-
-
+* What metric or metrics are you going to test?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metrics would include:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Safety, Selling Price, Resale Value, MPG, Engine Quality, Cost of Ownership<br><br>
+* What is the null hypothesis or alternative hypothesis?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Null Hypothesis: MechaCar is priced accurately based on performance and metrics.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternative Mypothesis: MechaCar is NOT priced accurately based on performance and metrics.<br>
+* What statistical test would you use to test the hypothesis? And why?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selling price (variable); which combination has the greatest impact on price (it could be all of them!)
