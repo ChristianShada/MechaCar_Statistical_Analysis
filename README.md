@@ -29,4 +29,21 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that the coils are well within the  the varience of the coils at 62.29. However when one looks at the lots individually, you will notice 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that Lot3's varience is above the required PSI at 170.29 which causes the average of the lot Varience to be at 62.29. See the box 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plot below as additional info.<br>
-<img align="right" width="600" height="600" src=https://github.com/ChristianShada/MechaCar_Statistical_Analysis/blob/main/Resources/Box_Plot_IndividualLot.PNG>
+<img align="right" width="600" height="600" src=https://github.com/ChristianShada/MechaCar_Statistical_Analysis/blob/main/Resources/Box_Plot_IndividualLot.PNG><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## T-Tests on Suspension Coils<br><br>
+### Deliverable 3
+* An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population<br><br>
+<img align="left" width="500" height="200" src=https://user-images.githubusercontent.com/89173945/149690381-38270b42-94a5-48c8-a677-0fdc967ca8c0.png><br><br><br><br><br><br><br><br><br>
+* An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population<br><br>
+<img align="left" width="500" height="200" src=https://user-images.githubusercontent.com/89173945/149690700-9f978f74-c360-4817-993d-b43b8f7e13b0.png><br><br><br><br><br><br><br><br><br>
+_Lot 1 sample actually has the true sample mean of 1500, again as we saw in the summary statistics above. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).<br><br>_
+<img align="left" width="500" height="200" src=https://user-images.githubusercontent.com/89173945/149691259-c9368d7a-0a12-4413-acf3-804aa938f537.png><br><br><br><br><br><br><br><br><br>
+_Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.<br><br>_
+<img align="left" width="500" height="200" src=https://user-images.githubusercontent.com/89173945/149691486-db9bb4c0-d7db-4e39-aebd-8b58953de1e6.png><br><br><br><br><br><br><br><br><br>
+_However, Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.<br><br>_
+There has been some malfuction in Lot 3 prodution. There needs to be a check  in the processes, status system fails, and the suspension coils from this lot need to be inspected to remove those or repair those that are out of the requirements.
+
+
+
+
